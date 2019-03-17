@@ -9,7 +9,7 @@ class Vakinha extends Component {
         <Title text='Vakínea' />
         <div className='fintech'>
           <div className='logo'>
-          
+          <i class="fas fa-hand-holding-usd vakinha"></i>
           </div>
           <div className='description'>
             <small>CROWDFUNDING</small>
