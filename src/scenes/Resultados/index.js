@@ -14,12 +14,14 @@ class Resultados extends Component {
               name='Vakínea'
               tax='4,6%'
               percentage='86%'
+              path='/vakinha'
             />
           </div>
           <div className='bankOptions'>
             <ResultOption
               name='Banco Tradinossauro'
               tax='6,8%'
+              path='/vakinha'
               percentage='70%'
             />
           </div>
@@ -27,6 +29,7 @@ class Resultados extends Component {
             <ResultOption
               name='Nua'
               tax='12,4%'
+              path='/vakinha'
               percentage='56%'
             />
           </div>
