@@ -5,18 +5,13 @@ import './style.css';
 class FaixaFatura extends Component {
   render() {
     return (
-      <div className='container'>
+      <div className='container faixaFatura'>
         <Title text='Qual sua média mensal de faturamento?' />
-        <div className='yesNoGroup'>
-          <Button
-            path='/localidade'
-            label='Continuar'
-          />
-          <Button
-            path='/localidade'
-            label='Ganho mais de R$ 6750,00'
-          />
-        </div>
+        <input className='faixa' />
+        <Button
+          path='/resultados'
+          label='Continuar'
+        />
       </div>
     )
   }
