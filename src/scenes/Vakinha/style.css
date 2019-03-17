@@ -1,0 +1,52 @@
+.fintech {
+  display: flex;
+}
+
+.logo {
+  width: 100px;
+  height: 96px;
+  border-radius: 25px;
+  border: solid 1px #ffffff;
+}
+
+.description {
+  margin-left: 20px;
+}
+.match {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0
+}
+
+.infos {
+  display: flex;
+}
+.list {
+  width: 40%
+}
+
+.need {
+  width: 58%
+}
+
+.infos ul {
+  padding-inline-start: 20px;
+}
+
+.buttonGroup {
+  height: 128px;
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.external {
+  width: calc(100vw - 40px);
+  display: flex;
+  justify-content: center;
+}
+
+.externalLink {
+  text-decoration: none;
+}

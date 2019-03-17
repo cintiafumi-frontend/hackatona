@@ -1,0 +1,7 @@
+.yesNoGroup {
+  margin-top: 120px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

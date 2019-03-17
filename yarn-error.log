@@ -1,0 +1,40 @@
+Arguments: 
+  /snap/node/1738/bin/node /home/cintia/.yarn/bin/yarnpkg config get registry
+
+PATH: 
+  /home/cintia/.npm/_npx/11329/bin:/home/cintia/node_modules/.bin:/home/cintia/.yarn/bin:/home/cintia/.config/yarn/global/node_modules/.bin:/home/cintia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/cintia/go/bin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  8.15.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, write
+      at Object.fs.writeSync (fs.js:735:20)
+      at SyncWriteStream._write (internal/fs.js:78:6)
+      at doWrite (_stream_writable.js:396:12)
+      at writeOrBuffer (_stream_writable.js:382:5)
+      at SyncWriteStream.Writable.write (_stream_writable.js:290:11)
+      at ConsoleReporter._log (/home/cintia/.yarn/lib/cli.js:86862:17)
+      at ConsoleReporter.log (/home/cintia/.yarn/lib/cli.js:86850:10)
+      at get (/home/cintia/.yarn/lib/cli.js:78083:14)
+      at Object.<anonymous> (/home/cintia/.yarn/lib/cli.js:24706:25)
+      at Generator.next (<anonymous>)
+
+npm manifest: 
+  {
+    "name": "hackatona-reprograma",
+    "version": "0.1.0",
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

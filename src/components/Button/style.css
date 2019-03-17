@@ -1,0 +1,19 @@
+.button {
+  width: calc(100% - 86px);
+  height: 56px;
+  border-radius: 25px;
+  border: solid 1px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 43px;
+}
+
+.fas {
+  margin: 0 20px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
