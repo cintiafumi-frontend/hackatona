@@ -6,6 +6,7 @@ import Localidade from './Localidade';
 import Mentoria from './Mentoria';
 import Negocio from './Negocio';
 import Resultados from './Resultados';
+import SaibaMais from './SaibaMais';
 import Segmento from './Segmento';
 import Vakinha from './Vakinha';
 
@@ -18,6 +19,7 @@ export {
   Mentoria,
   Negocio,
   Resultados,
+  SaibaMais,
   Segmento,
   Vakinha
 }

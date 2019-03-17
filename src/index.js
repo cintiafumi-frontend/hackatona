@@ -10,6 +10,7 @@ import {
   Mentoria,
   Negocio,
   Resultados,
+  SaibaMais,
   Segmento,
   Vakinha
 } from './scenes';
@@ -26,6 +27,7 @@ ReactDOM.render(
       <Route path='/mentoria' component={Mentoria} />
       <Route path='/negocio' component={Negocio} />
       <Route path='/resultados' component={Resultados} />
+      <Route path='/saibaMais' component={SaibaMais} />
       <Route path='/segmento' component={Segmento} />
       <Route path='/vakinha' component={Vakinha} />
       <Route path='/' exact={true} component={Home} />

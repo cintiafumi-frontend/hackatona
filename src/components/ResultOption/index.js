@@ -9,7 +9,8 @@ const ResultOption = (props) => (
       style={{
         width: props.percentage
       }}
-    >
+    />
+    <div className='content'>
       <Link
         to={props.path}
         className='optionLink'

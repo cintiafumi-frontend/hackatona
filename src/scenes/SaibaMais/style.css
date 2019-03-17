@@ -1,0 +1,14 @@
+.saibaMais {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to bottom, #3d3598, #357a96);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}

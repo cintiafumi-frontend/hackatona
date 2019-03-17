@@ -43,11 +43,11 @@ class Vakinha extends Component {
         </div>
         <div className='buttonGroup'>
           <Button
-            path='/mentoria'
-            label='Ver mentoria'
+            path='/saibaMais'
+            label='Saiba mais'
           />
           <Button
-            path='/mentoria'
+            path='/resultados'
             label='Ver outras opções'
           />
         </div>

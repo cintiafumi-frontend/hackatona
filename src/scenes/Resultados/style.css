@@ -6,9 +6,29 @@
   padding: 20px;
 }
 
+.banks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 110px;
+}
+
 .bankOptions {
+  position: relative;
   width: calc(100vw - 40px);
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.mais {
+  width: calc(100vw - 40px);
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.maisLink {
+  text-decoration: none;
+  font-size: 20px;
 }
